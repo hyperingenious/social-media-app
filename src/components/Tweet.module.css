@@ -1,0 +1,13 @@
+.card {
+  max-width: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: var(--mantine-spacing-xl);
+}
+.tweetHead{
+    display: flex;
+    align-items: center;
+    gap: var(--mantine-spacing-xs);
+
+}
