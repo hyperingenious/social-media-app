@@ -12,32 +12,41 @@ import Button from "./Button";
 import styles from "./Tweet.module.css";
 import Comment from "./Comment";
 import { useToggle } from "@mantine/hooks";
+import { useState } from "react";
+import { useDispatch } from "react-redux";
+import { addComment } from "../redux/fetchPeopleSlice";
 
-export function Tweet() {
+export function Tweet({ postData }) {
+  return (
+    <>
+      {postData.map((post) => (
+        <TweetFullBody key={post.id} tweetData={post} />
+      ))}
+    </>
+  );
+}
+
+function TweetFullBody({ tweetData }) {
   const [value, toggle] = useToggle([false, true]);
+  const [comment, setComment] = useState("");
+  const dispatch = useDispatch();
 
   return (
-    <Card withBorder radius="md" mt={"md"} className={styles.card}>
+    <Card shadow="sm" withBorder radius="md" mt={"md"} className={styles.card}>
       <Card.Section className={styles.tweetHead}>
-        <Avatar size={"lg"}
-          src="https://avatars.githubusercontent.com/u/10353856?s=460&u=88394dfd67727327c1f7670a1764dc38a8a24831&v=4"
-          alt="it's me"
-        />{" "}
+        <Avatar size={"lg"} src={tweetData.avatar} alt="it's me" />{" "}
         <div>
           <Text fw={500} size="md">
-            Saurav Meghwal{" "}
+            {tweetData.name}
           </Text>
           <Text c="dimmed" size="sm">
-            @sauravmeghwal
+            {tweetData.username}
           </Text>
         </div>
       </Card.Section>
       <Card.Section>
         <Text fz="md" ml={"sm"}>
-          Completely renovated for the season 2020, Arena Verudela Bech
-          Apartments are fully equipped and modernly furnished 4-star
-          self-service apartments located on the Adriatic coastline by one of
-          the most beautiful beaches in Pula.{" "}
+          {tweetData.tweet}
         </Text>
       </Card.Section>
       <Card.Section>
@@ -57,7 +66,7 @@ export function Tweet() {
               />
             </ActionIcon>
 
-            <Text>23</Text>
+            <Text>{tweetData.comment_count}</Text>
           </Group>
           <Group gap={5}>
             <ActionIcon
@@ -69,7 +78,7 @@ export function Tweet() {
             >
               <IconHeart style={{ width: "70%", height: "70%" }} stroke={1.5} />
             </ActionIcon>
-            <Text>200</Text>
+            <Text>{tweetData.like_count}</Text>
           </Group>
         </Group>
       </Card.Section>
@@ -79,25 +88,34 @@ export function Tweet() {
         <>
           <Card>
             <Card.Section>
-              <Group>
-                <Avatar
-                  src="https://avatars.githubusercontent.com/u/10353856?s=460&u=88394dfd67727327c1f7670a1764dc38a8a24831&v=4"
-                  alt="it's me"
-                />
+              <Group m={"xs"}>
+                <Avatar src={tweetData.avatar} alt="it's me" />
                 <Textarea
                   variant="unstyled"
+                  onChange={(e) => setComment(e.target.value)}
+                  value={comment}
                   withAsterisk
                   placeholder="Post a comment"
                 />
               </Group>
               <Group justify="flex-end">
-                <Button name="Post" />
+                <Button
+                  name="Reply"
+                  onClick={() => {
+                    dispatch(
+                      addComment({ comment: comment, postId: tweetData.postId })
+                    );
+                    setComment("");
+                  }}
+                />
               </Group>
             </Card.Section>
           </Card>
           {/* Comments Section */}
           <Title order={5}>Comments</Title>
-          <Comment styles={styles} />{" "}
+          {tweetData.comments.map((comment) => (
+            <Comment key={comment} comment={comment} styles={styles} />
+          ))}{" "}
         </>
       ) : null}
     </Card>

@@ -1,10 +1,12 @@
+import { useSelector } from "react-redux";
 import ProfileComponent from "../components/ProfileComponent";
 import { Tweet } from "../components/Tweet";
 
 function Profile() {
+  const { posts } = useSelector((store) => store.people);
   return (
     <ProfileComponent>
-      <Tweet />
+      <Tweet postData={posts} />
     </ProfileComponent>
   );
 }

@@ -1,0 +1,324 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "username": "john_doe",
+    "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairDreads02&accessoriesType=Prescription01&hairColor=Blue&facialHairType=Blank&clotheType=CollarSweater&clotheColor=PastelGreen&eyeType=WinkWacky&eyebrowType=SadConcernedNatural&mouthType=Smile&skinColor=Yellow",
+    "followers": [2, 3, 4],
+    "following": [5, 6, 7],
+    "post_number": 15,
+    "post": [
+      {
+        "postId": "sidndidi8383diddhrtmanhotrakinkrdollarsignikiaraadvanieje",
+        "tweet": "Just had the best coffee ever!",
+        "comments": [
+          "Great choice!",
+          "Where did you get it?",
+          "I need coffee too!"
+        ],
+        "like_count": 15,
+        "comment_count": 3
+      },
+      {
+        "postId": "sidndidi8383dsedhemotmautnhotrakinfeikiaraadvanieje",
+        "tweet": "Excited about the new project I'm working on!",
+        "comments": ["Can't wait to see it!", "Tell us more!", "Good luck!"],
+        "like_count": 23,
+        "comment_count": 3
+      },
+      {
+        "postId": "sidndidi8383diddhcuagianrakinfeikiaraadvanieje",
+        "tweet": "Enjoying a relaxing weekend at home.",
+        "comments": [
+          "Sounds nice!",
+          "What are you doing?",
+          "Wish I could do the same."
+        ],
+        "like_count": 30,
+        "comment_count": 3
+      },
+      {
+        "postId": "sidndidi8383diddhr8dhdnyetmanhotrakinfeikiaraadvanieje",
+        "tweet": "Attended an interesting conference today.",
+        "comments": [
+          "Tell us the highlights!",
+          "What did you learn?",
+          "Networking opportunities?"
+        ],
+        "like_count": 18,
+        "comment_count": 3
+      },
+      {
+        "postId": "sidndidi8383diddhrtmanh8ddraadvanieje",
+        "tweet": "Celebrating a small victory at work!",
+        "comments": ["Congratulations!", "Well done!", "Party time!"],
+        "like_count": 25,
+        "comment_count": 3
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "username": "jane_smith",
+    "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShaggyMullet&accessoriesType=Sunglasses&hairColor=BrownDark&facialHairType=BeardMajestic&facialHairColor=Black&clotheType=ShirtVNeck&clotheColor=PastelYellow&eyeType=EyeRoll&eyebrowType=UpDown&mouthType=Eating&skinColor=Tanned",
+    "followers": [1, 3, 5],
+    "following": [4, 6, 8],
+    "post_number": 20,
+    "post": [
+      {
+        "postId": "sidndidi8383diddhrtvandematramtrakinfeikiaraadvanieje",
+        "tweet": "Just finished reading an amazing book!",
+        "comments": [
+          "What's the title?",
+          "Tell us more about it!",
+          "I need book recommendations."
+        ],
+        "like_count": 35,
+        "comment_count": 3
+      },
+      {
+        "postId": "sidndidi8383diddhrtmPakMightwiwinikiaraadvanieje",
+        "tweet": "Hiking adventure with friends today!",
+        "comments": [
+          "Beautiful scenery?",
+          "Did you take pictures?",
+          "How long was the hike?"
+        ],
+        "like_count": 28,
+        "comment_count": 3
+      },
+      {
+        "postId": "sidndidi8383diddhrIndiaJeetaarakinfeikiaraadvanieje",
+        "tweet": "Trying out a new recipe for dinner.",
+        "comments": [
+          "What's on the menu?",
+          "Share the recipe!",
+          "Hope it turns out delicious!"
+        ],
+        "like_count": 20,
+        "comment_count": 3
+      },
+      {
+        "postId": "worldcup2023nfeikiaraadvanieje",
+        "tweet": "Movie night at home with popcorn!",
+        "comments": [
+          "What movie are you watching?",
+          "Any recommendations?",
+          "Enjoy your night!"
+        ],
+        "like_count": 15,
+        "comment_count": 3
+      },
+      {
+        "postId": "sidndidi8383diddhrtmanvardunkhawhotrakinfeikiaraadvanieje",
+        "tweet": "Workout complete! Feeling energized.",
+        "comments": [
+          "What's your workout routine?",
+          "Any tips for staying motivated?",
+          "Great job!"
+        ],
+        "like_count": 22,
+        "comment_count": 3
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Bob Johnson",
+    "username": "bob_johnson",
+    "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairDreads&accessoriesType=Blank&hairColor=Blue&facialHairType=MoustacheFancy&facialHairColor=Black&clotheType=ShirtCrewNeck&clotheColor=PastelOrange&eyeType=Dizzy&eyebrowType=Angry&mouthType=Twinkle&skinColor=Pale",
+    "followers": [1, 2, 4],
+    "following": [7, 8, 9],
+    "post_number": 18,
+    "post": [
+      {
+        "postId": "sidndidi8383diddhchawani",
+        "tweet": "Exploring a new city today!",
+        "comments": [
+          "Which city?",
+          "Favorite places so far?",
+          "Recommendations for things to do?"
+        ],
+        "like_count": 18,
+        "comment_count": 3
+      },
+      {
+        "postId": "sidndidi8383thisisiG20kinfeikiaraadvanieje",
+        "tweet": "Binge-watching a TV series this weekend.",
+        "comments": [
+          "What series are you watching?",
+          "Any spoilers?",
+          "Best episodes so far?"
+        ],
+        "like_count": 25,
+        "comment_count": 3
+      },
+      {
+        "postId": "sidndidi8383diddhrtmsdfduf000anhotrakinfeikiaraadvanieje",
+        "tweet": "Trying my hand at painting. Wish me luck!",
+        "comments": [
+          "What are you painting?",
+          "Share the progress!",
+          "Artistic vibes!"
+        ],
+        "like_count": 15,
+        "comment_count": 3
+      },
+      {
+        "postId": "sidndidi8383diddkesehoapphrtmanhotrakinfeikiaraadvanieje",
+        "tweet": "Attended a live concert last night.",
+        "comments": [
+          "Who performed?",
+          "Favorite song of the night?",
+          "Memorable moments?"
+        ],
+        "like_count": 30,
+        "comment_count": 3
+      },
+      {
+        "postId": "sidndidi8383diddhrtmanhotraksochaldostninfeikiaraadvanieje",
+        "tweet": "Sunday brunch with friends!",
+        "comments": [
+          "Favorite brunch spot?",
+          "What did you order?",
+          "Good company matters."
+        ],
+        "like_count": 20,
+        "comment_count": 3
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Alice Brown",
+    "username": "alice_brown",
+    "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraightStrand&accessoriesType=Wayfarers&hairColor=Red&facialHairType=BeardMajestic&facialHairColor=BlondeGolden&clotheType=BlazerSweater&eyeType=Hearts&eyebrowType=UpDownNatural&mouthType=Smile&skinColor=Black",
+    "followers": [1, 3, 5],
+    "following": [2, 6, 9],
+    "post_number": 12,
+    "post": [
+      {
+        "postId": "sidndidi8383diddhrtmanhoiampgitrakinfeikiaraadvanieje",
+        "tweet": "Spent the day at the beach!",
+        "comments": [
+          "How was the weather?",
+          "Did you go swimming?",
+          "Favorite beach activities?"
+        ],
+        "like_count": 28,
+        "comment_count": 3
+      },
+      {
+        "postId": "sidndidi8383diddhrtmanhhellowellotrakinfeikiaraadvanieje",
+        "tweet": "Visited a museum and learned a lot!",
+        "comments": [
+          "Which museum?",
+          "Favorite exhibit?",
+          "Planning to visit again?"
+        ],
+        "like_count": 24,
+        "comment_count": 3
+      },
+      {
+        "postId": "sidndidi8383diddhrtmanhotrakinbekkkerfeikiaraadvanieje",
+        "tweet": "Sunday gaming session with friends.",
+        "comments": [
+          "What games did you play?",
+          "Any victories?",
+          "Gaming setup details?"
+        ],
+        "like_count": 19,
+        "comment_count": 3
+      },
+      {
+        "postId": "sidndidi8383diddhrtmanhotrakinfeadvanieje",
+        "tweet": "Cooking experiment in progress.",
+        "comments": [
+          "What's on the menu?",
+          "Share the recipe!",
+          "Hope it turns out delicious!"
+        ],
+        "like_count": 21,
+        "comment_count": 3
+      },
+      {
+        "postId": "sidndidi8383diddakinfeikiaraadvanieje",
+        "tweet": "Late-night coding session. #DeveloperLife",
+        "comments": [
+          "What are you working on?",
+          "Any coding tips?",
+          "Favorite programming languages?"
+        ],
+        "like_count": 26,
+        "comment_count": 3
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Charlie Davis",
+    "username": "charlie_davis",
+    "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortCurly&accessoriesType=Prescription02&hairColor=Brown&facialHairType=MoustacheFancy&facialHairColor=Platinum&clotheType=ShirtScoopNeck&clotheColor=PastelYellow&eyeType=Side&eyebrowType=RaisedExcited&mouthType=Tongue&skinColor=Light",
+    "followers": [2, 4, 6],
+    "following": [1, 7, 10],
+    "post_number": 25,
+    "post": [
+      {
+        "postId": "sidndidi8383diddhrtmanhotraki5hudaraadvanieje",
+        "tweet": "Enjoying a day in the countryside!",
+        "comments": [
+          "Any scenic views?",
+          "Wildlife sightings?",
+          "Peaceful moments?"
+        ],
+        "like_count": 17,
+        "comment_count": 3
+      },
+      {
+        "postId": "sidndidi8383didd3883nhotrakinfeikiaraadvanieje",
+        "tweet": "Completed a challenging workout!",
+        "comments": [
+          "What exercises did you do?",
+          "Tips for staying motivated?",
+          "Fitness goals?"
+        ],
+        "like_count": 29,
+        "comment_count": 3
+      },
+      {
+        "postId": "sidndidi8383diddhrtmanhot88383rakinfeikiaraadvanieje",
+        "tweet": "Trying out a new hobby: photography!",
+        "comments": [
+          "What's your camera?",
+          "Share some photos!",
+          "Photography tips?"
+        ],
+        "like_count": 14,
+        "comment_count": 3
+      },
+      {
+        "postId": "sidndidi8383diddhrtmanhotrakinfe838iaraadvanieje",
+        "tweet": "Saw a breathtaking sunset today.",
+        "comments": [
+          "Where did you see it?",
+          "Nature's beauty!",
+          "Capture any photos?"
+        ],
+        "like_count": 32,
+        "comment_count": 3
+      },
+      {
+        "postId": "sidndidi8383diddhrtmanhotrakinfeikiaraadvanieje",
+        "tweet": "Movie night with the family!",
+        "comments": [
+          "What movie did you watch?",
+          "Favorite family traditions?",
+          "Fun evening!"
+        ],
+        "like_count": 22,
+        "comment_count": 3
+      }
+    ]
+  }
+]
